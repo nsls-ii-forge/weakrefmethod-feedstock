@@ -28,7 +28,7 @@ test:
   requires:
     - unittest2
   commands:
-    - {{ PYTHON }} -m unittest
+    - python -m unittest
 
 about:
   home: "http://github.com/twang817/weakrefmethod"
